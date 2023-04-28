@@ -151,9 +151,28 @@ img {
     }
  }
 
+/* versione tablet */
+
  @media screen and (max-width: 768px) {
     .container {
         width: 90%;
+    }
+    .lessons .col {
+        margin: 0 10px;
+    }
+    .steps .col {
+        margin: 0 10px;
+    }
+    .why-us .col {
+        margin: 0 10px;
+    }
+ }
+
+ /* versione desktop */
+
+ @media screen and (max-width: 1160px) {
+    .container {
+        width: 80%;
     }
     .lessons .col {
         margin: 0 10px;
